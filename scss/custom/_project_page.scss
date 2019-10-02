@@ -1,0 +1,50 @@
+.projectHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	overflow: hidden;
+	max-height: 15em;
+}
+
+.projectHeaderImg {
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+}
+
+.projectDetail{
+
+	p {
+		text-align: justify;
+	}
+
+	ul {
+		font-size: 1.2em;
+		list-style-type: none;
+		padding: 0;
+		color: $gray-700;
+	}
+
+	.projectLinks div {
+		
+		p {
+			text-align: center;
+		}
+		
+		a {
+			color: $gray-700;
+
+			&:hover {
+				color: $primary;
+			}
+		}		
+	}
+
+	.screenshot {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}	
+}
+
+@media print {
+	.pageBreak {page-break-after: always;}
+}

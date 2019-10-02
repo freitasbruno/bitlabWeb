@@ -1,0 +1,29 @@
+.projectLink {
+
+	.projectImg {
+		//filter: brightness(60%);	
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  		filter: grayscale(100%);	
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: cover;		
+	}
+
+	&:hover {
+		.projectImg {
+			filter: grayscale(30%);
+			//filter: brightness(100%);
+		}	
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	h4 {
+		margin-bottom: 1em;
+	}
+	.project {
+		height: 22em;
+	}
+}

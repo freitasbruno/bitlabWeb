@@ -1,0 +1,10 @@
+.technologies-section {
+	padding: 5rem 0rem;
+	background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+	color: $gray-400;
+
+	hr {
+		border-color: $gray-700;
+		margin-bottom: 3em;
+	}
+}
